@@ -1,91 +1,121 @@
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body>
-    <h1>About Page</h1>
-    <p>This is a simple about page.</p>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
 
-    <h2>Daily tasks</h2>
-    <ul>
-        <li>We patrol preservations</li>
-        <li>We  police</li>
-        <li>We rescue</li>
-        <li>We protect</li>
-    </ul>
+<body>
+    <div id="header">
+        <div id="banner">
+            <p>Random website notification</p>
+        </div>
+        <div id="nav">
+            <a href="index.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contact_us.html">Contact Us</a>
+        </div>
+    </div>
 
-    <h2>How can you join</h2>
-    <ol>
-        <li>Fill out the form on the contact us page</li>
-        <li>Wait for our response</li>
-        <li>Go through the interview pr_usocess</li>
-        <li><a href="contact_us.html">Contact us</a> for more information</li>
-    </ol>
+    <div id="main">
+        <h1>About Page</h1>
 
-    <h2>Locations</h2>
-    <table>
-        <tr>
-            <th>Logo</th>
-            <th>Location</th>
-            <th>Operating Hours</th>
-            <th>Email address</th>
-            <th>Phone number</th>
-        </tr>
-        <tr>
-        </tr>
-            <td><img src="images/newyork.png" alt="New York"  height="30" width="30"/></td>
+        <article>
+            <h2>Our Mission</h2>
+            <p>Our mission is to protect the environment and preserve natural habitats for future generations.</p>
+        </article>
+
+        <article>
+            <h2>Our Team</h2>
+            <p>Our team consists of dedicated professionals who are passionate about environmental conservation.</p>
+        </article>
+
+        <article>
+            <h2>Daily tasks</h2>
+            <ul>
+                <li>We patrol preservations</li>
+                <li>We police</li>
+                <li>We rescue</li>
+                <li>We protect</li>
+            </ul>
+
+            <h2>How can you join</h2>
+            <ol>
+                <li>Fill out the form on the contact us page</li>
+                <li>Wait for our response</li>
+                <li>Go through the interview pr_usocess</li>
+                <li><a href="contact_us.html">Contact us</a> for more information</li>
+            </ol>
+        </article>
+
+        <h2>Locations</h2>
+        <table>
+            <tr>
+                <th>Logo</th>
+                <th>Location</th>
+                <th>Operating Hours</th>
+                <th>Email address</th>
+                <th>Phone number</th>
+            </tr>
+            <tr>
+            </tr>
+            <td><img src="images/newyork.png" alt="New York" height="30" width="30" /></td>
             <td>New York</td>
             <td>9:00 AM - 5:00 PM</td>
             <td>info@newyork.org</td>
             <td>123-456-7890</td>
-        </tr>
-        <tr>
-            <td><img src="images/newyork.png" alt="New York"  height="30" width="30"/></td>
-            <td>Los Angeles</td>
-            <td>9:00 AM - 5:00 PM</td>
-            <td>info@losangeles.org</td>
-            <td>987-654-3210</td>
-        </tr>
-        <tr>
-          <td><img src="images/newyork.png" alt="New York"  height="30" width="30"/></td>
-            <td>Chicago</td>
-            <td>9:00 AM - 5:00 PM</td>
-            <td>info@chicago.org</td>
-            <td>555-123-4567</td>
-        </tr>
-        <tr>
-          <td><img src="images/newyork.png" alt="New York"  height="30" width="30"/></td>
-            <td>Houston</td>
-            <td>9:00 AM - 5:00 PM</td>
-            <td>info@houston.org</td>
-            <td>555-987-6543</td>
-        </tr>
-    </table>
+            </tr>
+            <tr>
+                <td><img src="images/newyork.png" alt="New York" height="30" width="30" /></td>
+                <td>Los Angeles</td>
+                <td>9:00 AM - 5:00 PM</td>
+                <td>info@losangeles.org</td>
+                <td>987-654-3210</td>
+            </tr>
+            <tr>
+                <td><img src="images/newyork.png" alt="New York" height="30" width="30" /></td>
+                <td>Chicago</td>
+                <td>9:00 AM - 5:00 PM</td>
+                <td>info@chicago.org</td>
+                <td>555-123-4567</td>
+            </tr>
+            <tr>
+                <td><img src="images/newyork.png" alt="New York" height="30" width="30" /></td>
+                <td>Houston</td>
+                <td>9:00 AM - 5:00 PM</td>
+                <td>info@houston.org</td>
+                <td>555-987-6543</td>
+            </tr>
+        </table>
 
-    <h2> General inquiries</h2>
-    <form action="confirm.html" method="post">
-        <label for="name">Name: *</label><br>
-        <input type="text" id="name" name="name">
+        <h2> General inquiries</h2>
+        <form action="confirm.html" method="post">
+            <label for="name">Name: *</label><br>
+            <input type="text" id="name" name="name">
 
-        <br><br>
+            <br><br>
 
-        <label for="email">Email: *</label><br>
-        <input type="email" id="email" name="email"><br><br>
+            <label for="email">Email: *</label><br>
+            <input type="email" id="email" name="email"><br><br>
 
-        <label>Are you employeed?</label>
-        <input type="radio" name="employed" value="Y"\>
-        <input type="radio" name="employed" value="N"\> 
-        <br><br>
-        <label>State your inquiry *</label> <br>
-        <textarea name="inquiry" rows="30" cols="50" ></textarea>
+            <label>Are you employeed?</label>
+            <input type="radio" name="employed" value="Y" \>
+            <input type="radio" name="employed" value="N" \>
+            <br><br>
+            <label>State your inquiry *</label> <br>
+            <textarea name="inquiry" rows="30" cols="50"></textarea>
 
-        <br><br>
-        <input type="submit" value="Submit">
-    </form>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 
-  </body>
+    <div id="footer">
+        <p>Copyright 2024</p>
+    </div>
 
-  </body>
+</body>
+
 </html>
